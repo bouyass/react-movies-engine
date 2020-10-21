@@ -24,7 +24,7 @@ function App() {
       params: {term: searchPhrase , country: 'us'},
       headers: {
         'x-rapidapi-host': 'utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com',
-        'x-rapidapi-key': '16b6360714msh50c0fc31ce7be1dp15d99bjsn73a8d0ce396f'
+        'x-rapidapi-key': 'API KEY'
       }
     };
 
