@@ -47,7 +47,7 @@ function App() {
       <br/><br/>
       <div className="movies-container">
           {results.map(item => {
-            return <MovieCard title={item.name} picture={item.picture} available={item.locations[0].display_name} link={item.locations[0].url} /> 
+            return <MovieCard subTitle={item.name.substring(0,22)} title={item.name} picture={item.picture} available={item.locations[0].display_name} link={item.locations[0].url} /> 
           })}
       </div>
     </div>
