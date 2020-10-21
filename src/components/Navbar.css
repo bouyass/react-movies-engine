@@ -1,0 +1,60 @@
+.nav-container {
+    background-color: #2f047e;
+    display: flex;
+    color: #fff;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width:50%;
+    display: flex;
+    gap:30px;
+    justify-content: flex-end;
+    margin-right: 10px;
+    height: 50%;    
+}
+
+.search input {
+    width:40%;
+}
+
+.search button {
+    width:15%;
+    font-size: 1.5em;
+}
+#main-title {
+    width:50%;
+    text-align: left;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#loop {
+    margin-top: 15px;
+    margin: 15px;
+}
+
+.form-control{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width:960px) {
+    .search input {
+        width:300px;
+    }
+
+    .search {
+       gap:10px;
+       align-self: center;
+       align-items: center;
+       justify-content: center;
+    }
+
+    #main-title {
+        display: none;
+    }
+
+}
